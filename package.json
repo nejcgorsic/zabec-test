@@ -1,0 +1,14 @@
+{
+  "name": "zabectest",
+  "version": "1.0.0",
+  "description": "Navigation bar for zabec.net",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Nejc Goršič",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
