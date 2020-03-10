@@ -25,20 +25,6 @@
   transition: all .3s;
 }
 
-.active-link {
-  display: flex;
-  justify-content: center;
-  width: 20px;
-  height: 5px;
-  width: 100%;
-
-  .element {
-    width: 30px;
-    width: 20px;
-    height: 5px;
-    background-color: #000;
-  }
-}
 
 .navbar-nav__sub {
   width: auto;
@@ -93,9 +79,20 @@
 }
 
 /*================= NAV Table =================*/
+
+.table > tbody > tr:first-child > td,
+.table > tbody > tr:nth-child(3) > td {
+  border:none;
+}
+
+
+
 .nav-table {
   font: $nav-sub-font-prop;
-  left: 0;
+
+  tbody tr td ul li a {
+    color: red;
+  }
 
   a {
     text-decoration: none;
@@ -110,7 +107,7 @@
 
     &--logo {
       justify-content: left;
-      width:60px;
+      width: 60px;
     }
 
     span {
