@@ -12,6 +12,7 @@ $('.nav-item').hover(function () {
     });
 });
 
+
 $('.toggle').click(function (e) {
     e.preventDefault();
 

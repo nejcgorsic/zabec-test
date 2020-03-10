@@ -109,6 +109,34 @@
 
 
 /*================= MOBILE =================*/
+.mobile-nav {
+  height: 100%;
+  padding-left: 5px;
+  font: $nav-font-prop;
+
+
+  &__contact {
+    display: flex;
+
+    span {
+      margin-left: 10px;
+    }
+  }
+
+  &__icons {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+
+    &__icon {
+      margin-top: 10px;
+    }
+
+  }
+
+}
 
 ul {
   bottom: 0 !important;
@@ -140,7 +168,9 @@ ul {
   li {
     margin: .2em 0;
 
+
     a.toggle {
+      text-decoration: none;
       width: 100%;
       display: block;
       background: #fff;
@@ -152,6 +182,17 @@ ul {
     }
   }
 }
+
+.navbar-toggler>.close {
+  display: inline;
+}
+
+.navbar-toggler.collapsed>.close,
+.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display: none;
+}
+
+/* MEDIA SCREENS */
 
 @media only screen and (max-width: 991px) {
 

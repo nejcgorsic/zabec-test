@@ -1,3 +1,9 @@
-$primary-font: Raleway,
-sans-serif;
-$nav-font-prop: 400 0.9rem/1.2rem $primary-font;
+/* FONTS */
+
+$primary-font: Gotham,
+sans-serif; // Primary font
+
+$nav-font-prop: 300 0.9rem/1.2rem $primary-font; // Font style for navbar (mobile and desktop)
+
+/* COLORS */
+$color-grey-light: #e8e8e8; // Borders, some icons etc.
