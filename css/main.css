@@ -95,7 +95,7 @@ html {
   margin-bottom: 20px; }
 
 .nav-table {
-  font: 300 0.8rem/5px Gotham, sans-serif; }
+  font: 300 0.8rem/1px Gotham, sans-serif; }
   .nav-table a {
     text-decoration: none;
     color: #000; }
@@ -109,9 +109,17 @@ html {
       margin-left: 10px; }
   .nav-table__td--item {
     list-style-type: none; }
+    .nav-table__td--item:hover {
+      color: green; }
+    .nav-table__td--item a:hover {
+      color: green; }
   .nav-table__td--title {
-    min-width: 250px;
-    word-wrap: break-word; }
+    min-width: 250px; }
+    .nav-table__td--title a {
+      text-transform: uppercase;
+      word-wrap: break-word; }
+      .nav-table__td--title a:hover {
+        color: green; }
 
 /*================= MOBILE =================*/
 .mobile-nav {
