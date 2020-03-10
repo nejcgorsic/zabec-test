@@ -13,6 +13,7 @@ html {
 /* COLORS */
 /* FONTS */
 /* COLORS */
+/* BASIC NAVBAR BOOTSTRAP*/
 .logo {
   width: 60px;
   position: relative;
@@ -24,6 +25,9 @@ html {
   width: 100%;
   color: #000 !important;
   font: 300 1rem Gotham, sans-serif; }
+
+.navbar .nav-item .nav-link:hover .sidebar-right {
+  display: none; }
 
 .navbar .nav-item .nav-link {
   padding-right: 100px !important;
@@ -196,6 +200,5 @@ ul {
   .navbar .mobile-nav {
     display: none !important; } }
 
-/*TESTING*/
 .border-bottom {
   border-bottom: 1px solid #d4d4d4 !important; }

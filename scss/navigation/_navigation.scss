@@ -1,5 +1,6 @@
 @import '../base/variables';
 
+/* BASIC NAVBAR BOOTSTRAP*/
 .logo {
   width: 60px;
   position: relative;
@@ -12,6 +13,12 @@
   width: 100%;
   color: #000 !important;
   font: $nav-font-prop;
+}
+
+.navbar .nav-item .nav-link:hover {
+  .sidebar-right {
+    display: none;
+  }
 }
 
 .navbar .nav-item .nav-link {
@@ -128,6 +135,7 @@
 
     &--item {
       list-style-type: none;
+
       &:hover {
         color: green;
       }
@@ -279,5 +287,3 @@ ul {
     display: none !important;
   }
 }
-
-/*TESTING*/
