@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .logo {
   width: 60px;
   position: relative;
@@ -74,25 +76,31 @@
 
   &__icon {
     margin-top: 10px;
+    cursor: pointer;
+    &:hover {
+      color: green;
+    }
   }
 
 }
 
 /*================= NAV Table =================*/
 
-.table > tbody > tr:first-child > td,
-.table > tbody > tr:nth-child(3) > td {
-  border:none;
+
+.table__border-bottom--td {
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc !important;
+  padding-bottom: 10px;
 }
 
-
+.nav-table ul li {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
 
 .nav-table {
   font: $nav-sub-font-prop;
-
-  tbody tr td ul li a {
-    color: red;
-  }
 
   a {
     text-decoration: none;
