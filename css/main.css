@@ -8,9 +8,7 @@
   text-align: center;
   width: 100%;
   color: #000 !important;
-  font-family: Raleway, sans-serif;
-  font-weight: 300 !important;
-  font-size: 0.8rem; }
+  font: 400 0.9rem/1.2rem Raleway, sans-serif; }
 
 .navbar .nav-item .nav-link {
   padding-right: 100px !important;
@@ -66,8 +64,18 @@
   .sidebar-right__icon {
     margin-top: 10px; }
 
-.td-title {
-  min-width: 250px; }
+/*================= NAV Table =================*/
+.nav-table {
+  font: 400 0.9rem/1.2rem Raleway, sans-serif;
+  left: 0; }
+  .nav-table a {
+    text-decoration: none;
+    color: #000; }
+  .nav-table__td--item {
+    list-style-type: none; }
+  .nav-table__td--title {
+    min-width: 250px;
+    word-wrap: break-word; }
 
 /*================= MOBILE =================*/
 ul.collapsein {

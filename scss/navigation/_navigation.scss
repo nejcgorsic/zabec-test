@@ -9,9 +9,7 @@
   text-align: center;
   width: 100%;
   color: #000 !important;
-  font-family: $primary-font;
-  font-weight: 300 !important;
-  font-size: 0.8rem;
+  font: $nav-font-prop;
 }
 
 .navbar .nav-item .nav-link {
@@ -81,9 +79,30 @@
 
 }
 
-.td-title {
-  min-width: 250px;
+/*================= NAV Table =================*/
+.nav-table {
+  font: $nav-font-prop;
+  left: 0;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__td {
+
+    &--item {
+      list-style-type: none;
+
+    }
+
+    &--title {
+      min-width: 250px;
+      word-wrap: break-word;
+    }
+  }
 }
+
 
 
 /*================= MOBILE =================*/
